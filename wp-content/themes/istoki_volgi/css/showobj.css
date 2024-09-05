@@ -1,0 +1,301 @@
+@media print {
+.backlink {display:none;}
+}
+
+/* --- [ fileBox] --- */
+.winlefttitle
+{
+	float:left;
+	width: auto;
+	color: #a6a6a6;
+	font-size:11px;
+	margin-right:50px;
+	background-image:url(/img/showobj/eye.png);
+	background-repeat:no-repeat;
+	background-position:left 4px;
+	padding-left:20px;
+	padding-top:6px;
+	padding-bottom:3px;
+	margin-left:10px;
+}
+
+.winrighttitle
+{
+	float:right;
+	width: auto;
+	margin-right:30px;
+	padding-top:4px;
+}
+
+.winrighttitle span
+{
+	color: #a6a6a6;
+	font-size:11px;
+	padding-right:3px;
+	position:relative;
+	top:-5px;
+}
+
+.winmidtitle
+{
+	float: left;
+	width: auto;
+	text-transform: lowercase;
+}
+
+.winmidtitle h3
+{
+	display:inline;
+	text-transform: uppercase;
+	margin-right:10px;
+}
+
+
+.OBJparent
+{
+	width:900px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	border-top:1px solid #d9d9d9;
+	min-width:900px;
+}
+
+.OBJparent h3
+{
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight: normal;
+	color: #4c4c4c;
+	text-align:left;
+}
+
+.OBJleft
+{
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+	width:290px;
+	padding:5px;
+	height:auto;
+	margin:0px;
+	text-align:center;
+	vertical-align:top;
+}
+
+.OBJleft .somewords
+{
+	text-align:left;
+	height: 50px;
+}
+
+.OBJleft .somewords img
+{
+	height: 50px;
+	float:left;
+	margin-right: 10px;
+}
+
+.OBJleft .userInfo img
+{
+	max-width:50px;
+	border-radius:50%;
+}
+
+.OBJleft .userInfo p
+{
+	padding:0px;
+	margin:0px;
+}
+
+.OBJseen
+{
+	width:auto;
+	background-color:#EEE;
+	padding:5px;
+	font-size:11px;
+	color:#00F;
+}
+
+.aboutseller
+{
+	font-size:13px;
+	color:#4c4c4c;
+	text-align:left;
+}
+
+.aboutseller h2
+{
+	text-transform: uppercase;
+	color: #4c4c4c;
+	font-weight:normal;
+	font-size:14px;
+	margin:0px;
+	margin-top:20px;
+}
+
+.aboutseller h3
+{
+	text-transform: none;
+	color: #4c4c4c;
+	font-weight:normal;
+	font-size:13px;
+	margin:0px;
+	margin-top:5px;
+	margin-bottom:20px;
+}
+
+.aboutseller b
+{
+	font-size:13px;
+	font-weight: normal;
+	color:#a6a6a6;
+	width: 110px;
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+}
+
+.OBJmid
+{
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+        width:420px;
+	padding:5px;
+	margin:0px;
+	height:auto;
+	text-align:left;
+	vertical-align:top;
+	color: #4c4c4c;
+	font-size:13px;
+}
+
+.OBJright
+{
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+        width:160px;
+	padding:0px;
+	padding-left:5px;
+	padding-top:5px;
+	height:auto;
+	margin:0px;
+	text-align:center;
+	vertical-align:top;
+}
+
+.OBJright img
+{
+	margin-bottom: 5px;
+	border-radius: 0px;
+	max-width:160px;
+	-webkit-box-shadow: 0px 0px 5px #aaa;
+	box-shadow: 0px 0px 5px #aaa;
+}
+
+
+.OBJmid span
+{
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+	width:45%;
+	padding-left:0px;
+	color: #4c4c4c;
+	font-size:13px;
+	text-align:left;
+}
+
+.OBJmid div
+{
+	display:-moz-inline-stack; /* for FF2*/
+	display:inline-block; /* normal browsers */
+	zoom:1; /* for IE (hasLayout true) */
+	*display:inline; /* for IE */
+	width:45%;
+	padding-left:0px;
+	text-align:left;
+	vertical-align:top;
+	font-weight:normal;
+	color:#a6a6a6;
+	font-size:13px;
+}
+
+.OBJmid div.OBJprice
+{
+	width:430px;
+	font-size:13px;
+	color:#f88a0a;
+	vertical-align:bottom;
+	clear:both;
+	float:none;
+	height:30px;
+	padding-bottom:4px;
+	margin-bottom:3px;
+	text-align:left;
+}
+
+.OBJmid div.OBJprice b
+{
+	font-size:24px;
+	font-weight: normal;
+	color:#f88a0a;
+	vertical-align:bottom;
+	position:relative;
+	top:3px;
+}
+
+
+.OBJmid img
+{
+	clear:both;
+	display: block;
+	margin:50px 0px 0px 0px;
+}
+
+.OBJmid span.objbutton, .OBJmid a.objbutton
+{
+	margin: 10px 10px 0px 0px;
+	padding: 10px;
+	border-radius: 3px;
+	box-shadow: #777 0px 0px 5px;
+	color: #fff;
+	text-align:center;
+	display: block;
+	clear: both;
+	width: 372px;
+	cursor: hand;
+	cursor: pointer;
+}
+
+.OBJmid a.objbutton:hover
+{
+	box-shadow: #000 0px 0px 5px;
+}
+
+.OBJmid span.objbutton
+{
+	 opacity: 0.2;
+}
+
+.sber
+{
+	background-color:#007630;	
+}
+
+.corder
+{
+	background-color:#f88a0a;	
+}
+
+.updtext
+{
+	font-size: 14px;
+}

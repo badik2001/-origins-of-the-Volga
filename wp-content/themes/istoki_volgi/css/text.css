@@ -1,0 +1,163 @@
+﻿table.virtual, table.virtual td
+{
+/*	border: 1px solid #efe; */
+	border-collapse: collapse;
+}
+
+table.virtual img
+{
+	width:100%;
+	max-width: 500px;
+	height: auto;
+
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+
+}
+
+table.virtual.verticalpics img
+{
+	max-height: 300px;
+	width:auto;
+	max-width:100%;
+
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+
+}
+
+table.virtual.pics3inonerow .row3pics img
+{
+	max-height: 230px;
+}
+
+table.virtual.pics4inonerow .row4pics img
+{
+	max-height: 200px;
+}
+
+table.virtual.pics8inonerow .row8pics img
+{
+	max-height: 180px;
+}
+
+table.virtual.pics5inonerow .row5pics img
+{
+	max-height: 140px;
+}
+
+
+table.virtual tr
+{
+	background-image: url(/img/hr1.png);
+	background-repeat: repeat-x;
+	background-position: center top;
+}
+
+table.virtual td
+{
+	vertical-align:top;
+	display: block;
+	width: 100%;
+}
+
+table.virtual td:nth-child(1)
+{
+	padding: 20px 3px 3px 3px;
+	text-align:center;
+	font-family: BruskovayaCTTNarrowNormal;
+	font-size: 44px;
+}
+
+table.virtual td:nth-child(1) p
+{
+	text-align:center;
+}
+
+table.virtual td:nth-child(2)
+{
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+}
+
+table.virtual td:nth-child(2) p
+{
+	text-align:center;
+}
+
+
+table.virtual td:nth-child(3)
+{
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+}
+
+table.virtual td:nth-child(4)
+{
+	padding: 3px 3px 10px 3px;
+}
+
+table.virtual td:nth-child(4) p
+{
+	text-align:justify;
+}
+
+
+table.virtual td a.hs
+{
+	display: block;
+	overflow: hidden;
+	text-align: center;
+}
+
+table.virtual.verticalpics td a.hs
+{
+	display: inline-block;
+	margin: 3px;
+	vertical-align:top;
+}
+
+table.virtual.verticalpics td a.hs:first-child
+{
+    	margin-top: 3px !important;
+}
+
+table.virtual td a.hs img:hover
+{
+	-webkit-transform: scale(1.1);
+	    -moz-transform: scale(1.1);
+	    -o-transform: scale(1.1);
+
+	-moz-transition: all 1s ease-out;
+	-o-transition: all 1s ease-out;
+	-webkit-transition: all 1s ease-out;
+}
+
+
+
+@media (max-width: 680px)
+{
+	table.virtual td
+	{
+		display: block;
+		width: 100%;
+		text-align: justify;
+	}
+	table.virtual td:nth-child(2)
+	{
+		padding: 0px 3px 0px;
+	}
+
+
+	table.virtual td:nth-child(1) p
+	{
+		text-align:center;
+	}
+
+	table.virtual td:nth-child(2) p
+	{
+		text-align:center;
+	}
+}
