@@ -1,16 +1,18 @@
-
-# BEGIN WordPress
-# Директивы (строки) между `BEGIN WordPress` и `END WordPress`
-# созданы автоматически и подлежат изменению только через фильтры WordPress.
-# Сделанные вручную изменения между этими маркерами будут перезаписаны.
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /
-RewriteRule ^index\.php$ - [L]
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /index.php [L]
+AddCharset UTF-8 .html
+<FilesMatch "\.(html)$">
+   Header set Cache-Control: "no-cache, no-store"
+   Header unset ETag
+</FilesMatch>
+Header set X-Content-Type-Options nosniff
+# DISABLE CACHING
+<IfModule mod_headers.c>
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
 </IfModule>
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
 
 # END WordPress

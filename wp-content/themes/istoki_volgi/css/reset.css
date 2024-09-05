@@ -1,0 +1,67 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.cd-dropdown header div, 
+.cd-dropdown header span, 
+.cd-dropdown header applet, 
+.cd-dropdown header object, 
+.cd-dropdown header iframe,
+.cd-dropdown header h1, 
+.cd-dropdown header h2, 
+.cd-dropdown header h3, 
+.cd-dropdown header h4, 
+.cd-dropdown header h5, 
+.cd-dropdown header h6, 
+.cd-dropdown header p, 
+.cd-dropdown header blockquote, 
+.cd-dropdown header pre,
+.cd-dropdown header a, 
+.cd-dropdown header abbr, 
+.cd-dropdown header acronym, 
+.cd-dropdown header address, 
+.cd-dropdown big, .cd-dropdown cite, .cd-dropdown code,
+.cd-dropdown del, .cd-dropdown dfn, .cd-dropdown em, .cd-dropdown img, .cd-dropdown ins, .cd-dropdown kbd, .cd-dropdown q, .cd-dropdown s, .cd-dropdown samp,
+.cd-dropdown small, .cd-dropdown strike, .cd-dropdown strong, .cd-dropdown sub, .cd-dropdown sup, .cd-dropdown tt, .cd-dropdown var,
+.cd-dropdown b, .cd-dropdown u, .cd-dropdown i, .cd-dropdown center,
+.cd-dropdown dl, .cd-dropdown dt, .cd-dropdown dd, .cd-dropdown ol, 
+.cd-dropdown header ul, 
+.cd-dropdown header li,
+.cd-dropdown fieldset, .cd-dropdown form, .cd-dropdown label, .cd-dropdown legend,
+.cd-dropdown table, .cd-dropdown caption, .cd-dropdown tbody, .cd-dropdown tfoot, .cd-dropdown thead, .cd-dropdown tr, .cd-dropdown th, .cd-dropdown td,
+.cd-dropdown article, .cd-dropdown aside, .cd-dropdown canvas, .cd-dropdown details, .cd-dropdown embed, 
+.cd-dropdown figure, .cd-dropdown figcaption, .cd-dropdown footer, .cd-dropdown header, .cd-dropdown hgroup, 
+.cd-dropdown menu, .cd-dropdown header nav, .cd-dropdown output, .cd-dropdown ruby, .cd-dropdown section, .cd-dropdown summary,
+.cd-dropdown time, .cd-dropdown mark, .cd-dropdown audio, .cd-dropdown video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+.cd-dropdown article, .cd-dropdown aside, .cd-dropdown details, .cd-dropdown figcaption, .cd-dropdown figure, 
+.cd-dropdown footer, .cd-dropdown header, .cd-dropdown hgroup, .cd-dropdown menu, .cd-dropdown nav, .cd-dropdown section, .cd-dropdown main {
+	display: block;
+}
+.cd-dropdown  {
+	line-height: 1;
+}
+.cd-dropdown ol, .cd-dropdown ul {
+	list-style: none;
+}
+.cd-dropdown blockquote, .cd-dropdown q {
+	quotes: none;
+}
+.cd-dropdown blockquote:before, .cd-dropdown blockquote:after,
+.cd-dropdown q:before, .cd-dropdown q:after {
+	content: '';
+	content: none;
+}
+.cd-dropdown table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
